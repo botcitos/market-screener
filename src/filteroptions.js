@@ -1,0 +1,1 @@
+export const filterOptions = {price:['any','> 1USD','> 5USD', '> 10USD', '< 1 USD', '< 5 USD', '< 10USD' ], marketcap:['any', 'small','+small (300 mill)', '+medium(2bl)','+ large(10bl)'],avgvol:['under 100k','100k-500k','500k-2mill','over 2m'],epsgrowth:['<0%','>0%','>10%','>25%']}

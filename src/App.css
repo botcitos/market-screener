@@ -1,0 +1,28 @@
+.screener {
+  font-family:Verdana, Geneva, Tahoma, sans-serif;  
+}
+.navBar {
+  height: 60px;
+}
+.filter-section {
+  padding-top: 100px; /* Add some padding to the top */
+}
+.filter-dropdown {
+  width: 900px !important;
+}
+.list {
+  margin-left: 30px;
+}
+.link {
+  margin-left: 20px;
+}
+.logo {
+  height: 40px;
+  margin-right: 10px;
+}
+.navbar-brand {
+  display: flex;
+  align-items: center;
+}
+
+
