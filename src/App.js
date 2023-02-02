@@ -1,10 +1,10 @@
-import 'bootstrap/dist/css/bootstrap.css'
+import '../node_modules/bootstrap/dist/css/bootstrap.css'
 import {DropdownButton,Dropdown, Nav,Navbar} from 'react-bootstrap'
 import {useState} from 'react'
 import {filterOptions} from './filteroptions.js'
 import logo from './logo.svg'
 import './App.css';
-<link rel="stylesheet" type="text/css" href="./app.css"></link>
+<link rel="stylesheet" type="text/css" href="App.css"></link>
 
 
 
@@ -50,6 +50,8 @@ function App() {
         </Navbar.Collapse>
       </Navbar>
       <div className="filter-section">
+          
+          <h3>Select filter criteria:</h3>
           <div className="row">
             <div className="col-sm-3"><DropdownButton  id="price-filter" title={'Price: '+priceSelectedOption} className="w-100 filter-dropdown" onSelect={(eventKey) => handleSelect(eventKey,'price')}>
               {filterOptions.price.map((option) => (

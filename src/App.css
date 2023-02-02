@@ -5,10 +5,18 @@
   height: 60px;
 }
 .filter-section {
-  padding-top: 100px; /* Add some padding to the top */
+  padding-top: 80px;
+  margin-left:20px;
+  margin-right: 20px; 
 }
-.filter-dropdown {
-  width: 900px !important;
+.row {
+  padding-top: 30px;
+}
+#price-filter, #marketcap-filter, #avgvol-filter, #epsgrowth-filter {
+  width: 100% !important;
+}
+#dropdown-item {
+  width: 100% !important;
 }
 .list {
   margin-left: 30px;
@@ -25,4 +33,7 @@
   align-items: center;
 }
 
+.content {
+  padding-top:50px;
+}
 
